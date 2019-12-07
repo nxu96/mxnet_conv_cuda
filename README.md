@@ -6,11 +6,11 @@
 # Optimizations
 
 - [ ] Shared Memory convolution
-- [ ] Weight matrix (kernel values) in constant memory
-- [ ] Loop unrolling
-- [ ] Unroll + shared-memory Matrix multiply
+- [ ] Weight matrix (kernel values) in constant memory (Feasible ? TBD)
+- [x] Loop unrolling 
+- [x] Unroll + shared-memory Matrix multiply
 - [ ] Kernel fusion for unrolling and matrix-multiplication
 - [ ] Exploiting parallelism in input images, input channels, and output channels
-- [ ] Multiple kernel implementations for different layer sizes
+- [x] Multiple kernel implementations for different layer sizes
 - [ ] Sweeping various parameters to find best values (block sizes, amount of thread coarsening)
 
